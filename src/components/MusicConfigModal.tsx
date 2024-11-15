@@ -30,7 +30,6 @@ const MusicConfigModal: React.FC<MusicConfigModalProps> = ({
     { id: 'country', name: 'Country', description: 'Son authentique et racines américaines' },
     { id: 'folk', name: 'Folk', description: 'Mélodies simples et naturelles' },
     { id: 'metal', name: 'Metal', description: 'Guitares lourdes et énergie brute' },
-    { id: 'soul', name: 'Soul', description: 'Voix puissantes et émotion profondes' },
   ];
 
   const handleNext = () => {
