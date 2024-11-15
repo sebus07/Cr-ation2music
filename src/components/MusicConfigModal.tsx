@@ -22,9 +22,15 @@ const MusicConfigModal: React.FC<MusicConfigModalProps> = ({
 
   const styles = [
     { id: 'pop', name: 'Pop', description: 'Mélodies accrocheuses et modernes' },
-    { id: 'jazz', name: 'Jazz', description: 'Ambiance douce et sophistiquée' },
     { id: 'rock', name: 'Rock', description: 'Énergie et guitares électriques' },
-    { id: 'classical', name: 'Classique', description: 'Élégance et émotions profondes' }
+    { id: 'classical', name: 'Classique', description: 'Élégance et émotions profondes' },
+    { id: 'hiphop', name: 'Hip-Hop', description: 'Rythmes urbains et paroles percutantes' },
+    { id: 'blues', name: 'Blues', description: 'Sons mélancoliques et émotionnels' },
+    { id: 'reggae', name: 'Reggae', description: 'Rythmes détendus et messages positifs' },
+    { id: 'country', name: 'Country', description: 'Son authentique et racines américaines' },
+    { id: 'folk', name: 'Folk', description: 'Mélodies simples et naturelles' },
+    { id: 'metal', name: 'Metal', description: 'Guitares lourdes et énergie brute' },
+    { id: 'soul', name: 'Soul', description: 'Voix puissantes et émotion profondes' },
   ];
 
   const handleNext = () => {
