@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Music, MessageCircle } from 'lucide-react';
-import PayPalButton from './PayPalButton';
+import PayPalButton from './PayPalButton.tsx';
 import toast from 'react-hot-toast';
 
 interface MusicConfigModalProps {
